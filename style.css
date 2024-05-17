@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+
+
+
+
+
+.left img{
+    width: 65px;
+    height: 40px;
+}
+
+
+
+.container{
+    padding: 0 10vw;
+}
+.containerHeader{
+    padding: 0 10vw;
+}
+
+
+    nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+background-color: #f3f0f0;
+
+}
+
+.search{
+    width: 30vw;
+    border: 0.1px solid rgb(155, 154, 154);
+    padding: 7px 17px;
+    border-radius: 5px;
+    background: #f5f3f3;
+}
+
+.homeImg{
+    width: 79vw;
+    margin: 12px 0;
+}
+
+
+.homecmg{
+    width: 11.71vw;
+    margin: 6px 12px;
+    
+}
+
+footer{
+    padding: 12px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.tall{
+    height: 40vw;
+}
+
+
+@media (max-width :1550px){
+    header{
+    height: 122px;
+    }
+
+    nav{
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+    .rigth{
+        flex-direction: column;
+        }
+
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+    
+
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+
+    }
+
+    .container{
+        padding: 0 2vw;
+    }
+}
